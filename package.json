@@ -13,6 +13,7 @@
   ],
   "scripts": {
     "start": "node app",
+    	    "deploy": "gcloud app deploy",
     "build-dev": "webpack --mode development --config public/webpack.config.js",
     "build": "webpack --mode production --config public/webpack.config.js"
   },
